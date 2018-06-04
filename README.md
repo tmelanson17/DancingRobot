@@ -10,9 +10,9 @@ Python 3 and Conda (for Python 3) are the only externals requirement for this: h
 
 ### Installing
 
-To open the Conda command prompt window, refer to this [Getting Started page](https://conda.io/docs/user-guide/getting-started.html).
+Open the Anaconda Prompt window (refer to this [Getting Started page](https://conda.io/docs/user-guide/getting-started.html)).
 
-In the command prompt, type
+In the Anaconda Prompt window, type
 
 ```
 cd [/path/to/DancingRobot]
@@ -24,19 +24,17 @@ Install the Conda environment via
 conda env create -f environment.yml
 ```
 
-Activate the environment via
+For Windows, activate the environment via
 
 ```
 activate deeplearning
 ```
 
-for Windows and 
+For Linux / OS X, activate the environment via
 
 ```
 source activate deeplearning
 ```
-
-for Linux and OS X
 
 
 ## Getting Started
@@ -47,10 +45,9 @@ After installing the environment, make sure the OpenCV works by running the vide
 python VideoCapture_HelloWorld.py
 ```
 
-For Jupyter projects, run JupyterLab with the following command in the repository:
+For Jupyter projects, **activate the environment first**, THEN run JupyterLab with the following command in the repository:
 
 ```
-source activate deeplearning
 jupyter lab
 ```
 
