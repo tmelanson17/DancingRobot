@@ -2,13 +2,21 @@
 
 This repository is for the DiscoveryLab Summer project
 
-For project management, I recommend downloading [SourceTree](https://www.sourcetreeapp.com/) for Windows/OS X and [GitKraken](https://www.gitkraken.com/) for OS X/Linux.
+For project management, I recommend downloading [GitKraken](https://www.gitkraken.com/) (it supports all operating systems).
 
 ### Prerequisites
 
 Python 3 and Conda (for Python 3) are the only externals requirement for this: https://www.anaconda.com/download/
 
 ### Installing
+
+Once the repository is cloned, enter the repository:
+
+```
+cd DancingRobot
+```
+
+To open the Conda command prompt window, refer to this [Getting Started page](https://conda.io/docs/user-guide/getting-started.html).
 
 Install the Conda environment via
 
