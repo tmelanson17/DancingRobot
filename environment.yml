@@ -4,21 +4,20 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.6
+  - opencv=3.4.1
   - ipython
   - jupyterlab
   - notebook
   - keras=2.1.5
   - matplotlib
   - numpy
-  - opencv
   - pandas
   - pillow
   - pip
   - pyserial
-  - python=3.5.5
   - scikit-image
   - scikit-learn
   - scipy
   - tensorflow
   - wheel
-  - opencv3
